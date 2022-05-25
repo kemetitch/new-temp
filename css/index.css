@@ -178,7 +178,7 @@ body {
 .landing-page {
   position: relative;
   min-height: 100vh;
-  background-image: url("../images/1.jpg");
+  background-image: url("../1.jpg");
   background-size: cover;
   transition: 0.3s;
 }

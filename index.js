@@ -85,7 +85,8 @@ function run_random_background(){
     if(backgroundopt===true){
         randomback=setInterval(()=>{
             let randomnum=Math.floor(Math.random()*imgarr.length);
-            landingPage.style.backgroundImage=`url("../images/${imgarr[randomnum]}")`;
+            console.log(`url("${imgarr[randomnum]}")`)
+            landingPage.style.backgroundImage=`url(${imgarr[randomnum]})`;
             },1000)
         }
 }
