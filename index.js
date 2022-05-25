@@ -79,13 +79,13 @@ random_background.forEach(span=>{
 // start handle changing background for landing page
 let landingPage=document.querySelector(".landing-page");
 
-let imgarr=["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg"];
+let imgarr=["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.png","7.jpg","8.jpg","9.jpg","10.jpg"];
 // end handle changing background for landing page
 function run_random_background(){
     if(backgroundopt===true){
         randomback=setInterval(()=>{
-            let randomnum=Math.floor(Math.random()*imgarr.length)
-            landingPage.style.backgroundImage=`url("../images/${imgarr[randomnum]}")`
+            let randomnum=Math.floor(Math.random()*imgarr.length);
+            landingPage.style.backgroundImage=`url("../images/${imgarr[randomnum]}")`;
             },1000)
         }
 }
