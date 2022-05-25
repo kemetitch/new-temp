@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start settings -->
+    <div class="setting-box">
+        <div class="icon">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h2>color</h2>
+                <ul class="option">
+                    <li class="active" data-color="#ff5722"></li>
+                    <li data-color="#9c27b0"></li>
+                    <li data-color="#2196f3"></li>
+                    <li data-color="#8bc34a"></li>
+                    <li data-color="#ff9800"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>background color</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">yes</span>
+                    <span class="no" data-background="no">no</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>bullet option</h4>
+                <div class="customize_bollet">
+                    <span class="yes active" data-display="show">yes</span>
+                    <span class="no" data-display="hide">no</span>
+                </div>
+            </div>
+            <button class="reset">
+                reset option
+            </button>
+        </div>
+    </div>
+    <!-- end settings -->
+    <!-- start nav bullet -->
+    <div class="nav_bullet">
+        <div class="bullet" data-sec=".about_us">
+            <div class="tool_tip">about us</div>
+        </div>
+        <div class="bullet" data-sec=".our_skills">
+            <div class="tool_tip">our skills</div>
+        </div>
+        <div class="bullet" data-sec=".galary">
+            <div class="tool_tip">our galary</div>
+        </div>
+        <div class="bullet" data-sec=".timeline">
+            <div class="tool_tip">timeline</div>
+        </div>
+        <div class="bullet" data-sec=".feture">
+            <div class="tool_tip">feture</div>
+        </div>
+        <div class="bullet" data-sec=".testemonial">
+            <div class="tool_tip">testemonial</div>
+        </div>
+        <div class="bullet" data-sec=".contact">
+            <div class="tool_tip">testemonial</div>
+        </div>
+    </div>
+    <!-- end nav bullet -->
+    <!-- start landing -->
+    <div class="landing-page">
+        <div class="container">
+            <div class="header">
+                <div class="logo">kareem</div>
+                <ul class="links">
+                    <li>
+                        <a href="#about" class="active">about</a>
+                    </li>
+                    <li>
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li>
+                        <a href="#gallary">gallary</a>
+                    </li>
+                    <li>
+                        <a href="#timeline">timeline</a>
+                    </li>
+                    <li>
+                        <a href="#future">future</a>
+                    </li>
+                    <li>
+                        <a href="#testemonial">testemonial</a>
+                    </li>
+                    <li>
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+                <div class="menue">
+                    <i class="fas fa-bars menu"></i>
+                </div>
+            </div>
+            <div class="landing-text">
+                <h1>building <span>creative</span> websites</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci officiis aliquam debitis autem architecto ratione quibusdam</p>
+            </div>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- start about us -->
+    <div class="about_us" id="about">
+        <div class="container">
+            <div class="info">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores laboriosam hic delectus dolorum cum dicta enim voluptatem fugit aperiam, dignissimos eaque, architecto perspiciatis iure possimus? Dolore officia nobis necessitatibus.</p>
+            </div>
+            <div class="image">
+                <img src="images/about-us.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- start our skills -->
+    <div class="our_skills" id="skills">
+        <div class="container">
+            <h1>our skills</h1>
+            <div class="skill_box">
+                <div class="skill_name">Html</div>
+                <div class="skill_prog">
+                    <span data-prog="80%"></span>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">css</div>
+                <div class="skill_prog">
+                    <span data-prog="70%"></span>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">javascript</div>
+                <div class="skill_prog">
+                    <span data-prog="65%"></span>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">paython</div>
+                <div class="skill_prog">
+                    <span data-prog="75%"></span>
+                </div>
+            </div>
+            <div class="skill_box">
+                <div class="skill_name">php</div>
+                <div class="skill_prog">
+                    <span data-prog="95%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start galary -->
+    <div class="galary" id="gallary">
+        <h2>galary</h2>
+        <div class="container">
+            <div class="galary_box">
+                <img src="images/01.jpg" alt="image box 1">
+            </div>
+            <div class="galary_box">
+                <img src="images/02.jpg" alt="image box 2">
+            </div>
+            <div class="galary_box">
+                <img src="images/03.jpg" alt="image box 3">
+            </div>
+            <div class="galary_box">
+                <img src="images/04.jpg" alt="image box 4">
+            </div>
+            <div class="galary_box">
+                <img src="images/05.jpg" alt="image box 5">
+            </div>
+            <div class="galary_box">
+                <img src="images/06.png" alt="image box 6">
+            </div>
+            <div class="galary_box">
+                <img src="images/07.jpg" alt="image box 7">
+            </div>
+            <div class="galary_box">
+                <img src="images/08.jpg" alt="image box 8">
+            </div>
+            <div class="galary_box">
+                <img src="images/09.jpg" alt="image box 9">
+            </div>
+            <div class="galary_box">
+                <img src="images/10.jpg" alt="image box 10">
+            </div>
+        </div>
+    </div>
+    <!-- end galary -->
+    <!-- start time line -->
+    <div class="timeline" id="timeline">
+        <div class="container">
+            <div class="timeline_content">
+                <div class="year">2022</div>                
+                <div class="left">
+                    <h3>design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus recusandae doloribus alias delectus repellendus dolorem tempore. Quod nesciunt laborum doloribus similique dolores ad quibusdam aut aspernatur veritatis! Accusamus, molestiae nobis.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>programming</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus recusandae doloribus alias delectus repellendus dolorem tempore. Quod nesciunt laborum doloribus similique dolores ad quibusdam aut aspernatur veritatis! Accusamus, molestiae nobis.</p>
+                </div>   
+                <div class="clearfix"></div>
+                <div class="year">2020</div>                
+                <div class="left">
+                    <h3>design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus recusandae doloribus alias delectus repellendus dolorem tempore. Quod nesciunt laborum doloribus similique dolores ad quibusdam aut aspernatur veritatis! Accusamus, molestiae nobis.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <h3>design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus recusandae doloribus alias delectus repellendus dolorem tempore. Quod nesciunt laborum doloribus similique dolores ad quibusdam aut aspernatur veritatis! Accusamus, molestiae nobis.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>programming</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus recusandae doloribus alias delectus repellendus dolorem tempore. Quod nesciunt laborum doloribus similique dolores ad quibusdam aut aspernatur veritatis! Accusamus, molestiae nobis.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end time line -->
+    <!-- start feture  -->
+    <div class="feture" id="future">
+        <h1>our feture</h1>
+        <div class="container">
+            <div class="box">
+                <img src="images/Icon_01.png" alt="">
+                <h4>programming</h4>
+                <p>we are design agency ,make awsome websites and pages</p>
+            </div>
+            <div class="box">
+                <img src="images/Icon_02.png" alt="">
+                <h4>programming</h4>
+                <p>we are design agency ,make awsome websites and pages</p>
+            </div>
+            <div class="box">
+                <img src="images/Icon_03.png" alt="">
+                <h4>programming</h4>
+                <p>we are design agency ,make awsome websites and pages</p>
+            </div>
+            <div class="box">
+                <img src="images/Icon_04.png" alt="">
+                <h4>programming</h4>
+                <p>we are design agency ,make awsome websites and pages</p>
+            </div>
+            <div class="box">
+                <img src="images/Icon_05.png" alt="">
+                <h4>programming</h4>
+                <p>we are design agency ,make awsome websites and pages</p>
+            </div>
+            <div class="box">
+                <img src="images/Icon_06.png" alt="">
+                <h4>programming</h4>
+                <p>we are design agency ,make awsome websites and pages</p>
+            </div>
+        </div>
+    </div>
+    <!-- end feture  -->
+    <!-- start testemonial -->
+    <div class="testemonial" id="testemonial">
+        <h2>Testemonial</h2>
+        <div class="container">
+            <div class="box">
+                <p>we are make awesome servicee for degital markiting ,provde many product in all field</p>
+                <div class="content">
+                    <img src="https://via.placeholder.com/80/DDD" alt="">
+                    <div class="info">
+                        <h4>kareem ahmed</h4>
+                        <p>ceo amazone</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>we are make awesome servicee for degital markiting ,provde many product in all field</p>
+                <div class="content">
+                    <img src="https://via.placeholder.com/80/EEE" alt="">
+                    <div class="info">
+                        <h4>ahmed elshamy</h4>
+                        <p>ceo facebook</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>we are make awesome servicee for degital markiting ,provde many product in all field</p>
+                <div class="content">
+                    <img src="https://via.placeholder.com/80/AAA" alt="">
+                    <div class="info">
+                        <h4>eslam shehab</h4>
+                        <p>ceo twitter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testemonial -->
+    <!-- start contact us -->
+    <div class="contact" id="contact">
+        <h1>contact us</h1>
+        <div class="container">
+            <form action="">
+                <div class="input_con">
+                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="phone">
+                    <input type="email" placeholder="email">
+                    <input type="text" placeholder="subject">
+                </div>
+                <div class="submit_con">
+                    <textarea name="" id=""placeholder="your message"></textarea>
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <div class="footer">
+        created with love <span>kareem shehab</span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
